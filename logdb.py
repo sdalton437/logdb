@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 import psycopg2
 
@@ -6,7 +5,7 @@ DBNAME = "news"
 
 
 def popart():
-    """Return the top 3 most popular articles of all time"""
+    """Returns the top 3 most popular articles of all time"""
     db = psycopg2.connect(database=DBNAME)
     c = db.cursor()
     c.execute("select totalviews.title, totalviews.views from totalviews")
@@ -18,7 +17,7 @@ def popart():
 
 
 def popauth():
-    """Return the most popular article authors of all time"""
+    """Returns the most popular article authors of all time"""
     db = psycopg2.connect(database=DBNAME)
     c = db.cursor()
     c.execute("select authors.name, pop_authors_id.totviews "
