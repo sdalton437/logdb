@@ -59,5 +59,13 @@ where date_status.case = 'false'
 group by date_status.date, date_status.case 
 order by date_status.date asc;
 ```
+```
+create view perc_error as 
+select tottrue.date, (tottrue.true::float)*100.00/(tottrue.true::float + totfalse.false::float) as perc_error
+from tottrue left join totfalse 
+on tottrue.date = totfalse.date
+group by tottrue.date, tottrue.true, totfalse.false
+order by tottrue.date asc
+```
 Once you have added these views, you can run the program using ```python logdb.py``` within the file directory
 
