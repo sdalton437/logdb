@@ -6,7 +6,7 @@ the authors ranked by views, and the days where more than 1% of requests for art
 
 # Requirements
 
-To run this program, you will need the [FSDN-Virtual-Machine]("https://d17h27t6h515a5.cloudfront.net/topher/2017/June/5948287e_fsnd-virtual-machine/fsnd-virtual-machine.zip"), the database [newsdata.sql]("https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip") and python 2.7
+To run this program, you will need the [FSDN-Virtual-Machine](https://d17h27t6h515a5.cloudfront.net/topher/2017/June/5948287e_fsnd-virtual-machine/fsnd-virtual-machine.zip), the database [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) and python 2.7
 
 The newsdata.sql and setup_database.sql files must both be in the same directory, and both be within the `vagrant` directory
 
