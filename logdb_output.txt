@@ -23,16 +23,5 @@
 
  On the Following Days More Than 1% of requests led to errors:
 
-         2016-07-17 -- 2.96% Errors
-
-         2016-07-24 -- 1.03% Errors
-
-         2016-07-19 -- 1.03% Errors
-
-         2016-07-05 -- 1.02% Errors
-
-         2016-07-06 -- 1.00% Errors
-
-         2016-07-08 -- 1.00% Errors
-
+         July 17, 2016 -- 2.26% Errors
 
